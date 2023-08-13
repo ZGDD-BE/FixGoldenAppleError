@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.21)
 
-project(plugin)
+project(GoldenAppleFixer)
 
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_BUILD_TYPE Release)
@@ -38,6 +38,7 @@ add_compile_options(
     /EHsc
     /FC
     /GL
+    /Gy
     /MD
     /nologo
     /permissive-
@@ -45,6 +46,7 @@ add_compile_options(
     /utf-8
     /Zc:inline
     /Zi
+    /Ox
 )
 
 add_link_options(
